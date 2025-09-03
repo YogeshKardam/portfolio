@@ -17,7 +17,7 @@ function HeroSection() {
                 </h1>
             </div>
             <div className='bdg-blue-500 w-auto sm:h-55 h-55 my-2 flex justify-center items-center'>
-                <img src="../../public/hero-img.jpeg" alt="" className='object-cover sm:size-70 size-55 rounded-2xl'/>
+                <img src="/hero-img.jpeg" alt="" className='object-cover sm:size-70 size-55 rounded-2xl'/>
 
             </div>
         </div>

@@ -8,7 +8,7 @@ function InfoCarousel() {
       <div className="mx-auto my-10 p-5 border-2 border-yellow-200 rounded-lg w-11/12 md:w-9/12 lg:w-8/12 bgs-gray-400 shadow-lg shadow-yellow-200/20 grid md:grid-cols-2 gap-4">
         {/* Image */}
         <div>
-          <img src="../../public/me01.jpeg" alt="" className={`rounded-3xl ${currentIndex == 0 ? "block" : "hidden"}`} />
+          <img src="/me01.jpeg" alt="" className={`rounded-3xl ${currentIndex == 0 ? "block" : "hidden"}`} />
           <img src="https://www.sujal.info/_next/image?url=%2Fcollege.jpg&w=640&q=75" alt="" className={`rounded-3xl ${currentIndex == 1 ? "block" : "hidden"}`} />
           <img src="https://www.sujal.info/_next/image?url=%2Fwd.jpg&w=640&q=75" alt="" className={`rounded-3xl ${currentIndex == 2 ? "block" : "hidden"}`} />
         </div>

@@ -11,7 +11,7 @@ function ProjectCard({ ProjectTitle, ProjectDescription, projectPrevUrl, project
         </div>
         <div className="row-span-2 mx-4 flex justify-center">
           <img
-            src={`../../public/${projectImgName}`}
+            src={`/${projectImgName}`}
             alt=""
             className="object-cover w-full h-32 rounded-md hover:scale-105 transition-transform duration-300 hover:shadow-lg shadow-lg hover:shadow-yellow-300/20"
           />
